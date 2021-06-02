@@ -230,3 +230,77 @@ SITE CONTENTS
 
   padding-left: 280px;
 }
+
+/*end projects section*/
+
+
+/*robotics section*/
+
+.first-spacer-robotics {
+  padding-bottom: 100px;
+}
+
+.robot1 {
+  padding: 4vw;
+}
+
+.robot2 {
+  padding: 6vw;
+}
+
+.second-txt-robotics {
+  padding-right: 4vw;
+}
+
+.img-scroll-animate {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.img-scroll {
+  opacity: 1;
+}
+
+/*end robotics section*/
+
+
+/*contact section*/
+
+.contact-section {
+  background: #487A75;
+  height: min-content;
+  
+}
+
+.contact-header {
+  font-family: stolzl, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 77px;
+  padding-left: 4vw;
+  color: #fff;
+}
+
+.contact-text {
+  font-family: stolzl, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 43px;
+  color: #fff;
+
+  padding-left: 4vw;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+.contact-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
