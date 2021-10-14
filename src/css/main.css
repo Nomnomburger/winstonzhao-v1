@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: #94FBF0;
+  background-color: #CFFAF6;
 }
 
 .responsive {
@@ -31,6 +31,23 @@ body {
 
 a:hover {
   color: #48FAE8;
+}
+
+.blur {
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  width: 100%;
+ }
+
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
 }
 
 
@@ -119,7 +136,7 @@ SITE CONTENTS
 /*projects section*/
 
 .rectangle2 {
-  background-color: #3AC7B9;
+  background-color: #77E0D6;
   margin-right: -150px; 
   margin-bottom: 90px;
   height: min-content;
@@ -137,7 +154,7 @@ SITE CONTENTS
 
 
 .rectangle3 {
-  background-color: #487A75;
+  background-color: #536160;
   margin-bottom: 90px;
   height: min-content;
   min-height: 700px;
@@ -267,7 +284,7 @@ SITE CONTENTS
 /*contact section*/
 
 .contact-section {
-  background: #487A75;
+  background: #5CADA5;
   height: min-content;
   
 }
@@ -303,4 +320,69 @@ SITE CONTENTS
 .contact-item {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/*end contact section*/
+
+
+/*
+MOBILE
+*/
+
+@media (min-width: 990px) {
+  .blur {
+    background-color: inherit;  
+    backdrop-filter: none;
+    width: 100%;
+   }
+
+  .padding-200-r {
+    padding-right: 200px;
+  }
+
+  .img2-projects {
+    float: left;
+  }
+  
+}
+
+@media (max-width: 989px) {
+  .light-heading-projects {
+    padding-left: 4vw;
+  }
+  .light-date-projects {
+    padding-left: 4vw;
+  }
+  .light-text-projects {
+    padding-left: 4vw;
+  }
+
+  .contact-text {
+    font-size: 4.5vw;
+  }
+
+  .coverTitleTop {
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-size: 17vw;
+    font-weight: 200;
+    line-height: 12vh;
+  }
+  .coverTitleBottom {
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-size: 19vw;
+    font-weight: 500;
+    line-height: 12vh;
+    padding-bottom: 6vh;
+  }
+
+  .headerText {
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 77px;
+    padding-left: 4vw;
+  }
 }
