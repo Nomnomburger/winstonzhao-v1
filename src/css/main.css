@@ -50,6 +50,16 @@ a:hover {
     outline: none;
 }
 
+.section-padding-t {
+  padding-top: 100px;
+}
+.section-padding-b {
+  padding-bottom: 200px;
+}
+.section-padding-b100 {
+  padding-bottom: 100px;
+}
+
 
 /*
 SITE CONTENTS
@@ -366,7 +376,7 @@ MOBILE
     font-style: normal;
     font-size: 17vw;
     font-weight: 200;
-    line-height: 12vh;
+    line-height: 16vh;
   }
   .coverTitleBottom {
     font-family: stolzl, sans-serif;
@@ -385,4 +395,25 @@ MOBILE
     line-height: 77px;
     padding-left: 4vw;
   }
+
+  .contact-header {
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 77px;
+    padding-left: 4vw;
+    color: #fff;
+  }
+  
+  .section-padding-t {
+    padding-top: 15px;
+  }
+  .section-padding-b {
+    padding-bottom: 80px;
+  }
+  .section-padding-b100 {
+    padding-bottom: 10px;
+  }
+
 }
