@@ -12,6 +12,10 @@ scroll = new LocomotiveScroll({
   firefoxMultiplier: 100,
   smooth: true,
   getSpeed: true,
+
+  smartphone: {
+    smooth: true,
+  },
   
   
   
