@@ -384,7 +384,7 @@ MOBILE
     font-size: 19vw;
     font-weight: 500;
     line-height: 12vh;
-    padding-bottom: 6vh;
+    padding-bottom: 10vh;
   }
 
   .headerText {
@@ -414,6 +414,11 @@ MOBILE
   }
   .section-padding-b100 {
     padding-bottom: 10px;
+  }
+
+  .about-picture {
+    padding-right: 0px;
+    padding: 20px;
   }
 
 }
