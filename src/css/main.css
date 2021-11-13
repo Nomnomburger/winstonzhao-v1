@@ -129,7 +129,9 @@ SITE CONTENTS
 }
 
 .about-text {
-  font-family: Helvetica, sans-serif;
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
   font-size: 18px;
 
   padding: 60px;
@@ -195,7 +197,9 @@ SITE CONTENTS
 }
 
 .dark-text-projects {
-  font-family: Helvetica, sans-serif;
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
   font-size: 18px;
 
   padding: 40px;
@@ -238,7 +242,9 @@ SITE CONTENTS
 }
 
 .light-text-projects {
-  font-family: Helvetica, sans-serif;
+  font-family: source-code-pro,monospace;
+  font-weight: 400;
+  font-style: normal;
   font-size: 18px;
   color: #fff;
 
