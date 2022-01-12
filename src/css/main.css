@@ -104,6 +104,20 @@ SITE CONTENTS
   line-height: 25vh;
 }
 
+.explore-btn-text {
+  font-family: Stolzl;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 29px;
+  color: black;
+  text-decoration: none;
+  bottom: 20vh;
+  right: 10px;
+  position: absolute;
+  transform: rotate(-90deg);
+}
+
 /*end cover*/
 
 
@@ -433,6 +447,10 @@ MOBILE
   .about-picture {
     padding-right: 0px;
     padding: 20px;
+  }
+
+  .explore-btn {
+    display: none;
   }
 
 }
