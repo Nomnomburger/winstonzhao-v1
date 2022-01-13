@@ -290,6 +290,39 @@ SITE CONTENTS
   padding-left: 280px;
 }
 
+
+.project-caption-text {
+  font-family: stolzl, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  transform: rotate(-90deg);
+  position: absolute;
+}
+
+.project-caption-1 {
+  margin-left: -80px;
+  margin-top: -80px;
+}
+
+.project-caption-2 {
+  margin-left: -140px;
+  margin-top: -140px;
+  white-space: nowrap;
+}
+
+.project-caption-3 {
+  margin-left: -115px;
+  margin-top: -110px;
+}
+
+.project-caption {
+  display: inherit;
+}
+
+
+
 /*end projects section*/
 
 
@@ -454,6 +487,10 @@ MOBILE
   }
 
   .explore-btn {
+    display: none;
+  }
+
+  .project-caption {
     display: none;
   }
 
