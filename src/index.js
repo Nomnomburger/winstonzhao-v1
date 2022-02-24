@@ -13,9 +13,6 @@ scroll = new LocomotiveScroll({
   smooth: true,
   getSpeed: true,
 
-  smartphone: {
-    smooth: true,
-  },
   
   
   
@@ -28,3 +25,5 @@ scroll = new LocomotiveScroll({
 imagesLoaded(scrollContainer, { background: true }, function () {
   scroll.update();
 });
+
+//print("test");
