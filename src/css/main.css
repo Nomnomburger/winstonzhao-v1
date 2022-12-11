@@ -286,6 +286,19 @@ SITE CONTENTS
   
 }
 
+.light-btn-projects {
+  font-family: Stolzl;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 280px;
+  padding-bottom: 40px;
+  
+}
+
 
 .light-heading-projects {
   font-family: stolzl, sans-serif;
